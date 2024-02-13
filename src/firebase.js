@@ -4,16 +4,15 @@ import { getAuth } from 'firebase/auth';
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCqRmMUCNPjdQKYa_2yYlUJ0FfNHrksopE",
-  authDomain: "react-authentication-450cf.firebaseapp.com",
-  projectId: "react-authentication-450cf",
-  storageBucket: "react-authentication-450cf.appspot.com",
-  messagingSenderId: "1079569440971",
-  appId: "1:1079569440971:web:412adc3d380c968b43fb4e",
-  measurementId: "G-MKQ0FKYTNQ"
+  apiKey: "AIzaSyAJdTfu5UNkQ4RQP7DWP49La3ng6azvzVY",
+  authDomain: "medanon-123.firebaseapp.com",
+  projectId: "medanon-123",
+  storageBucket: "medanon-123.appspot.com",
+  messagingSenderId: "983409360146",
+  appId: "1:983409360146:web:7064300b53f31a905dc7cb",
+  measurementId: "G-0ZMF0WHSWQ"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-export const auth = getAuth(app);
-export default app;
+const analytics = getAnalytics(app);
